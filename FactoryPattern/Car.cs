@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    class Program
+    abstract class Car
     {
-        static void Main(string[] args)
-        {
-
-        }
+        abstract Company
+        public string Company1 { get => Company; set => Company = value; }
     }
 }
